@@ -317,7 +317,7 @@ function App() {
               </Button>
             </a>
 
-            <a href="https://github.com/amnatahir5">
+            {/* <a href="https://github.com/amnatahir5">
               <Button
                 variant="outline"
                 size="lg"
@@ -326,7 +326,7 @@ function App() {
                 <Github className="w-4 h-4" />
                 GitHub
               </Button>
-            </a>
+            </a> */}
           </div>
         </div>
       </section >

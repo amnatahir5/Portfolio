@@ -10,7 +10,7 @@ function App() {
       {/* Header */}
       <header className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-50 fade-in-up">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-xl font-bold text-primary">Portfolio</h1>
+          <h1 className="text-xl font-bold text-primary">Hafiza Amna Tahir</h1>
           <nav className="hidden md:flex space-x-6">
             <a href="#about" className="text-muted-foreground hover:text-primary transition-colors">
               About
@@ -44,13 +44,15 @@ function App() {
                 <span className="text-purple-400 font-semibold">UI/UX design</span>.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 fade-in-up stagger-2">
-                <Button
-                  size="lg"
-                  className="gap-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300"
-                >
-                  <Mail className="w-4 h-4" />
-                  Get In Touch
-                </Button>
+                <a href="#contact" >
+                  <Button
+                    size="lg"
+                    className="gap-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300"
+                  >
+                    <Mail className="w-4 h-4" />
+                    Get In Touch
+                  </Button>
+                </a>
                 {/* <Button
                   variant="outline"
                   size="lg"
@@ -304,14 +306,17 @@ function App() {
                 Email Me
               </Button>
             </a>
-            <Button
-              variant="outline"
-              size="lg"
-              className="gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white border-0 hover:from-purple-600 hover:to-pink-600 transform hover:scale-105 transition-all duration-300"
-            >
-              <Linkedin className="w-4 h-4" />
-              LinkedIn
-            </Button>
+            <a href="https://www.linkedin.com/in/amna-tahir-505a98274/">
+              <Button
+                variant="outline"
+                size="lg"
+                className="gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white border-0 hover:from-purple-600 hover:to-pink-600 transform hover:scale-105 transition-all duration-300"
+              >
+                <Linkedin className="w-4 h-4" />
+                LinkedIn
+              </Button>
+            </a>
+
             <a href="https://github.com/amnatahir5">
               <Button
                 variant="outline"

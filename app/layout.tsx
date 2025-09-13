@@ -10,13 +10,13 @@ import "./globals.css"
 //   title: "v0 App",
 //   description: "Created with v0",
 //   generator: "v0.app",
-}
+// }
 
 export const metadata: Metadata = {
   title: "Amna Tahir | Portfolio",
   description: "Frontend web developer with keen interest in designing, building scalable and user-friendly web applications.",
   generator: "Portfolio by Amna Tahir", // you can even remove this line
-};
+}
 
 
 export default function RootLayout({

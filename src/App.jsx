@@ -61,6 +61,7 @@ function App() {
                 </Button> */}
               </div>
             </div>
+
             <div className="flex-shrink-0 slide-in-right">
               <div className="float-animation pulse-glow rounded-full">
                 {/* gradient-border float-animation pulse-glow */}
@@ -212,7 +213,7 @@ function App() {
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">Figma</Badge>
                   <Badge variant="secondary">UI Design</Badge>
-                  <Badge variant="secondary">Prototyping</Badge>
+                  <Badge variant="secondary">Material UI</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -263,9 +264,9 @@ function App() {
                   >
                     Material UI
                   </Badge>
-                  <Badge variant="outline" className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white">
+                  {/* <Badge variant="outline" className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white">
                     Wireframing
-                  </Badge>
+                  </Badge> */}
                   <Badge
                     variant="outline"
                     className="border-green-400 text-green-400 hover:bg-green-400 hover:text-white"
@@ -292,7 +293,7 @@ function App() {
             <span className="text-purple-400 font-semibold">design</span>!
           </p>
           <div className="flex justify-center gap-4 fade-in-up stagger-2">
-            <a href="iamnatahir@gmail.com">
+            <a href="mailto:iamnatahir@gmail.com">
               <Button
 
                 variant="outline"
@@ -311,14 +312,16 @@ function App() {
               <Linkedin className="w-4 h-4" />
               LinkedIn
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="gap-2 bg-gradient-to-r from-gray-700 to-gray-900 text-white border-0 hover:from-gray-800 hover:to-black transform hover:scale-105 transition-all duration-300"
-            >
-              <Github className="w-4 h-4" />
-              GitHub
-            </Button>
+            <a href="https://github.com/amnatahir5">
+              <Button
+                variant="outline"
+                size="lg"
+                className="gap-2 bg-gradient-to-r from-gray-700 to-gray-900 text-white border-0 hover:from-gray-800 hover:to-black transform hover:scale-105 transition-all duration-300"
+              >
+                <Github className="w-4 h-4" />
+                GitHub
+              </Button>
+            </a>
           </div>
         </div>
       </section >
